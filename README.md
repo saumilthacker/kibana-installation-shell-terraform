@@ -1,1 +1,1 @@
-# kibana-installation-shell-terraform
+# Installation of kibana using shell script and terraform.
