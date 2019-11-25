@@ -1,8 +1,8 @@
 #!/bin/bash
 yum install java-1.8.0-openjdk -y
 rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
-echo '[elasticsearch-6.x]'                                       >> /etc/yum.repos.d/elasticsearch.repo
-echo 'name=Elasticsearch repository for 6.x packages'            >> /etc/yum.repos.d/elasticsearch.repo
+echo '[elasticsearch-7.x]'                                       >> /etc/yum.repos.d/elasticsearch.repo
+echo 'name=Elasticsearch repository for 7.x packages'            >> /etc/yum.repos.d/elasticsearch.repo
 echo 'baseurl=https://artifacts.elastic.co/packages/6.x/yum'     >> /etc/yum.repos.d/elasticsearch.repo
 echo 'gpgcheck=1'                                                >> /etc/yum.repos.d/elasticsearch.repo
 echo 'gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch' >> /etc/yum.repos.d/elasticsearch.repo
